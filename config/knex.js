@@ -1,10 +1,10 @@
 module.exports = require('knex')({
     client: 'pg',
     connection: {
-        host: process.env.host,
-        port: process.env.port,
-        user: process.env.user,
-        password: process.env.password,
-        database: process.env.database
+        host: "127.0.0.1",
+        port: "5432",
+        user: "postgres",
+        password: "Password123",
+        database: "Learning"
     }
 });
